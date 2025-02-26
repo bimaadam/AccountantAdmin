@@ -17,15 +17,16 @@ interface Barang {
 
 const Accountant: React.FC = () => {
     const inventory: Barang[] = [
-        { id: 1, nama: "Barang A", jumlah: 10, harga: 5000 },
-        { id: 2, nama: "Barang B", jumlah: 5, harga: 10000 },
-        { id: 3, nama: "Barang C", jumlah: 20, harga: 2000 },
+        { id: 1, nama: "CPU", jumlah: 10, harga: 5000 },
+        { id: 2, nama: "Mouse", jumlah: 5, harga: 10000 },
+        { id: 3, nama: "Monitor", jumlah: 20, harga: 2000 },
+        { id: 4, nama: "Keyboard", jumlah: 10, harga: 1000 }
     ];
 
     return (
         <DefaultLayout>
             <Breadcrumb pageName="Accountant" />
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 h-screen">
                 <h1 className="text-2xl font-bold mb-4">Daftar Barang</h1>
                 <table className="table-auto w-full border-collapse">
                     <thead>

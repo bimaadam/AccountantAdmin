@@ -14,7 +14,7 @@ export default function RootLayout({
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [loading, setLoading] = useState<boolean>(true);
 
-  // const pathname = usePathname();
+  // const pathname = usePathname(); use easy router
 
   useEffect(() => {
     setTimeout(() => setLoading(false), 1000);
