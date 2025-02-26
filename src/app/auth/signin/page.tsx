@@ -6,8 +6,8 @@ import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
-  title: "Next.js SignIn Page | TailAdmin - Next.js Dashboard Template",
-  description: "This is Next.js Signin Page TailAdmin Dashboard Template",
+  title: "Login",
+  description: "Login Dashboard",
 };
 
 const SignIn: React.FC = () => {
@@ -24,12 +24,12 @@ const SignIn: React.FC = () => {
                   className="hidden dark:block"
                   src={"/images/logo/logo.svg"}
                   alt="Logo"
-                  width={176}
+                  width={200}
                   height={32}
                 />
                 <Image
                   className="dark:hidden"
-                  src={"/images/logo/logo-dark.svg"}
+                  src={"/images/logo/logo-icon.svg"}
                   alt="Logo"
                   width={176}
                   height={32}
@@ -37,8 +37,7 @@ const SignIn: React.FC = () => {
               </Link>
 
               <p className="2xl:px-20">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                suspendisse.
+                Login sebagai admin
               </p>
 
               <span className="mt-15 inline-block">
@@ -170,7 +169,7 @@ const SignIn: React.FC = () => {
             <div className="w-full p-4 sm:p-12.5 xl:p-17.5">
               <span className="mb-1.5 block font-medium">Start for free</span>
               <h2 className="mb-9 text-2xl font-bold text-black dark:text-white sm:text-title-xl2">
-                Sign In to TailAdmin
+                Sign In to Abyzain Jaya Teknika
               </h2>
 
               <form>

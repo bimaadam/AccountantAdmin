@@ -4,8 +4,8 @@ import DefaultLayout from "@/components/Layouts/DefaultLayout";
 
 export const metadata: Metadata = {
   title:
-    "CV. Bima | Admin Dashoard",
-  description: "Web Aplication nextjs with Typescript",
+    "CV. Abyzain Jaya Teknika | Admin Dashoard",
+  description: "Web Aplication Admin nextjs with Typescript",
 };
 
 export default function Home() {
